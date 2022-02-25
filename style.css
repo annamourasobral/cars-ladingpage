@@ -1,0 +1,92 @@
+body {
+    background-color:#f2f2f2;
+    width: 1440px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+#box {
+    display: flex;
+    margin: 5% 22%;
+    width: 60%;
+    border: 1px #004241;
+    border-radius: 5px;
+}
+
+#icon {
+    margin-top: 1em;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 1em 1em 1em 0;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+button {
+    background-color: #f2f2f2;
+    border: 1px #f2f2f2;
+    border-radius: 45px;
+    position: relative;
+    top: 10%;
+    padding: 1em 2em;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+
+.sedans {
+    display: inline-block;
+    width: 33%;
+    padding: 3em;
+    background-color: #e38826
+}
+
+.sedans > button {
+    color: #e38826;
+}
+
+.suvs {
+    display: inline-block;
+    width: 33%;
+    padding: 3em;
+    background-color: #006970;
+}
+
+.suvs > button {
+    color: #006970;
+}
+
+.luxury {
+    display: inline-block;
+    width: 33%;
+    padding: 3em;
+    background-color: #004241;
+}
+
+.luxury > button {
+    color: #004241;
+}
+
+.attribution { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 11px;
+    color: grey;
+    text-align: center; 
+    margin: 3em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
