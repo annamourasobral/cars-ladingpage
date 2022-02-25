@@ -9,8 +9,6 @@ body {
     display: flex;
     margin: 5% 22%;
     width: 60%;
-    border: 1px #004241;
-    border-radius: 5px;
 }
 
 #icon {
@@ -41,39 +39,75 @@ button {
     font-size: 1em;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
+    color: #f2f2f2;
+    margin-top: 3em;
+    text-decoration-line: none;
+}
+
+button :active {
+    color: #f2f2f2;
+}
+
+.sedans button :visited{
+    text-decoration: none;
+    color: #e38826;
+}
+
+.sedans button :active {
+    background-color: #e38826;
+}
+
+.suvs button :visited{
+    color: #006970;
+    text-decoration: none;
+}
+
+.suvs button :active {
+    background-color: #006970;,
+}
+
+.luxury button :visited{
+    color: #004241;
+    text-decoration: none;
+}
+
+.luxury button :active {
+    background-color: #004241;
 }
 
 .sedans {
     display: inline-block;
     width: 33%;
-    padding: 3em;
-    background-color: #e38826
-}
-
-.sedans > button {
-    color: #e38826;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
+    background-color: #e38826;
+    border: 2px solid #e38826;
+    border-radius: 6px 0 0 6px;
 }
 
 .suvs {
     display: inline-block;
     width: 33%;
-    padding: 3em;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
     background-color: #006970;
-}
-
-.suvs > button {
-    color: #006970;
+    border: 2px solid #006970;
 }
 
 .luxury {
     display: inline-block;
     width: 33%;
-    padding: 3em;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
     background-color: #004241;
-}
-
-.luxury > button {
-    color: #004241;
+    border: 2px solid #004241;
+    border-radius: 0 6px 6px 0;
 }
 
 .attribution { 
