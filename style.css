@@ -29,7 +29,7 @@ p {
 }
 
 button {
-    background-color: #f2f2f2;
+    background: #f2f2f2;
     border: 1px #f2f2f2;
     border-radius: 45px;
     position: relative;
@@ -41,38 +41,14 @@ button {
     font-weight: bold;
     color: #f2f2f2;
     margin-top: 3em;
-    text-decoration-line: none;
 }
 
-button :active {
+a {
+    text-decoration: none;
+}
+
+a :visited {
     color: #f2f2f2;
-}
-
-.sedans button :visited{
-    text-decoration: none;
-    color: #e38826;
-}
-
-.sedans button :active {
-    background-color: #e38826;
-}
-
-.suvs button :visited{
-    color: #006970;
-    text-decoration: none;
-}
-
-.suvs button :active {
-    background-color: #006970;,
-}
-
-.luxury button :visited{
-    color: #004241;
-    text-decoration: none;
-}
-
-.luxury button :active {
-    background-color: #004241;
 }
 
 .sedans {
